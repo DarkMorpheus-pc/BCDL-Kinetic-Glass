@@ -12,7 +12,7 @@ It bridges the gap between the structural rigor of Google's **Material 3 Express
 
 ---
 
-## 🎯 The Anti-AI-Slop Manifesto
+## The Anti-AI-Slop Manifesto
 
 Most modern Linux desktop rice concepts fall into one of two traps:
 1. **The RGB Gamer Trap:** Oversaturated cyan/magenta neons, pulsating drop shadows, and gaudy glowing borders that ruin dark-room ergonomics.
@@ -28,7 +28,7 @@ Most modern Linux desktop rice concepts fall into one of two traps:
 
 ---
 
-## 🏛️ The Four Architectural Pillars
+## The Four Architectural Pillars
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -48,7 +48,7 @@ Most modern Linux desktop rice concepts fall into one of two traps:
 
 ---
 
-## 🎨 Perceptual Color Tokens
+## Perceptual Color Tokens
 
 All tokens are defined in **`oklch(Lightness Chroma Hue)`**:
 
@@ -83,7 +83,7 @@ All tokens are defined in **`oklch(Lightness Chroma Hue)`**:
 
 ---
 
-## 🪟 Component Spotlight: The Ghost Surface Overlay
+## Component Spotlight: The Ghost Surface Overlay
 
 During session teleportation via **Blaze Continuum (BCTP/1)**, the destination machine renders a transient Ghost Surface:
 
@@ -141,7 +141,7 @@ During session teleportation via **Blaze Continuum (BCTP/1)**, the destination m
 
 ---
 
-## 🦀 Rust Integration
+## Rust Integration
 
 The design tokens are directly embeddable in Rust using `ColorOklch` / `ColorRgba` structures:
 
@@ -156,7 +156,7 @@ println!("Rendering HUD with background: rgba({}, {}, {}, {})",
 
 ---
 
-## 📦 Repository Structure
+## Repository Structure
 
 ```
 blaze-kinetic-glass/
@@ -171,7 +171,7 @@ blaze-kinetic-glass/
 
 ---
 
-## 📜 License
+## License
 
 Licensed under the [MIT License](LICENSE).  
-Engineered with sovereign pride by the **BlazeOS Core Team**.
+Engineered with sovereign pride by the **Blaze Core Team**.
