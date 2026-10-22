@@ -171,7 +171,7 @@ class GhostOverlayApp(Gtk.Application):
             GLib.timeout_add(self.auto_dismiss_ms, self.dismiss_overlay)
 
         self.window.present()
-        print(f"✅ [Ghost Surface]: BCDL Kinetic Glass Overlay ekranda! (Epoch: {self.epoch}, Gecikme: {self.latency}ms)")
+        print(f"[Ghost Surface]: BCDL Kinetic Glass Overlay ekranda! (Epoch: {self.epoch}, Gecikme: {self.latency}ms)")
 
     def record_input(self, event_data):
         self.inputs_count += 1
@@ -181,7 +181,7 @@ class GhostOverlayApp(Gtk.Application):
             "timestamp_ms": int(time.time() * 1000),
             "event": event_data
         }
-        print(f"📥 [Input Intercept]: {json.dumps(entry)}")
+        print(f"[Input Intercept]: {json.dumps(entry)}")
         if self.event_log:
             with open(self.event_log, "a") as f:
                 f.write(json.dumps(entry) + "\n")
@@ -204,7 +204,7 @@ class GhostOverlayApp(Gtk.Application):
         return True
 
     def dismiss_overlay(self):
-        print("⚡ [Ghost Surface]: Commit alındı, 120ms içinde gerçek sürece devrediliyor...")
+        print("[Ghost Surface]: Commit alındı, 120ms içinde gerçek sürece devrediliyor...")
         if self.window:
             self.window.close()
         self.quit()
